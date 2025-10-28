@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab5f30f017d21294c9baf54bcac9b441, type: 3}
+  m_Name: PlayerStats
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
+  level: 2
+  baseMaxHealth: 100
+  baseMaxMana: 200
+  baseMagicResist: 0
+  health: 122.96095
+  maxHealth: 137
+  mana: 197.71033
+  maxMana: 200
+  currentExp: 0
+  nextLevelExp: 150
+  InitialNextLevelExp: 100
+  ExpMultiplier: 50
+  BaseDamage: 2
+  CriticalChance: 10
+  CriticalDamage: 50
+  meleeLevel: 1
+  meleeExp: 0
+  meleeNextExp: 10
+  magicLevel: 1
+  magicExp: 0
+  magicNextExp: 10
+  bowLevel: 2
+  bowExp: 1
+  bowNextExp: 20
+  defenseLevel: 7
+  defenseExp: 2
+  defenseNextExp: 10
+  magicResist: 0
+  healthRegenRate: 1
+  manaRegenRate: 1
+  Strength: 0
+  Dexterity: 0
+  Intelligence: 0
+  AttributePoints: 1
+  TotalExp: 100
+  TotalDamage: 4.5
+  woodcuttingLevel: 1
+  woodcuttingExp: 0
+  woodcuttingNextExp: 10
+  miningLevel: 1
+  miningExp: 0
+  miningNextExp: 10
+  fishingLevel: 1
+  fishingExp: 0
+  fishingNextExp: 10

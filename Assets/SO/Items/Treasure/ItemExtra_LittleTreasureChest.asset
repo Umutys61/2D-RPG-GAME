@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cdd324b50631b14abe877e402e7b796, type: 3}
+  m_Name: ItemExtra_LittleTreasureChest
+  m_EditorClassIdentifier: Assembly-CSharp::ItemExtra
+  ID: ItemLittleTreasureChest
+  Name: Little Treasure  Chest
+  Icon: {fileID: -1016841321, guid: 4abc87e6e393b144dabd9f9cd832e8ec, type: 3}
+  Description: Mysterious Items.
+  ItemType: 5
+  IsConsumable: 0
+  IsStackable: 1
+  MaxStack: 10
+  Quantity: 0

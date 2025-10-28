@@ -1,0 +1,3198 @@
+fileFormatVersion: 2
+guid: d76ea7a21d58c054a89ff681a8165952
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5480508474841882667
+    second: roguelikeitemsx3_1_0
+  - first:
+      213: 5074372040751840700
+    second: roguelikeitemsx3_1_1
+  - first:
+      213: 6259933209684791116
+    second: roguelikeitemsx3_1_2
+  - first:
+      213: -6627554385231377095
+    second: roguelikeitemsx3_1_3
+  - first:
+      213: 5759669473013012268
+    second: roguelikeitemsx3_1_4
+  - first:
+      213: 459330000556216352
+    second: roguelikeitemsx3_1_5
+  - first:
+      213: 5783607012372863069
+    second: roguelikeitemsx3_1_6
+  - first:
+      213: -3229651422816086389
+    second: roguelikeitemsx3_1_7
+  - first:
+      213: -9053557348130623301
+    second: roguelikeitemsx3_1_8
+  - first:
+      213: 5696663389549407936
+    second: roguelikeitemsx3_1_9
+  - first:
+      213: 7825279190576109457
+    second: roguelikeitemsx3_1_10
+  - first:
+      213: 3605742454856749980
+    second: roguelikeitemsx3_1_11
+  - first:
+      213: 3029336177196946770
+    second: roguelikeitemsx3_1_12
+  - first:
+      213: -2203707409379127131
+    second: roguelikeitemsx3_1_13
+  - first:
+      213: 628049694625579597
+    second: roguelikeitemsx3_1_14
+  - first:
+      213: 5508146038408957157
+    second: roguelikeitemsx3_1_15
+  - first:
+      213: 1313435011471757232
+    second: roguelikeitemsx3_1_16
+  - first:
+      213: 8237862741130561598
+    second: roguelikeitemsx3_1_17
+  - first:
+      213: 4543161971831738429
+    second: roguelikeitemsx3_1_18
+  - first:
+      213: -7500612701011975032
+    second: roguelikeitemsx3_1_19
+  - first:
+      213: 2718708684657745602
+    second: roguelikeitemsx3_1_20
+  - first:
+      213: 8642739304328480025
+    second: roguelikeitemsx3_1_21
+  - first:
+      213: 6543565432043137859
+    second: roguelikeitemsx3_1_22
+  - first:
+      213: 6902683536161021914
+    second: roguelikeitemsx3_1_23
+  - first:
+      213: 8442320076263452607
+    second: roguelikeitemsx3_1_24
+  - first:
+      213: 3197172593216021845
+    second: roguelikeitemsx3_1_25
+  - first:
+      213: 2101095898205864333
+    second: roguelikeitemsx3_1_26
+  - first:
+      213: -7187125042252605236
+    second: roguelikeitemsx3_1_27
+  - first:
+      213: 4938849287106373455
+    second: roguelikeitemsx3_1_28
+  - first:
+      213: -6773976366134734038
+    second: roguelikeitemsx3_1_29
+  - first:
+      213: -1428186964050447438
+    second: roguelikeitemsx3_1_30
+  - first:
+      213: 3133718335990649161
+    second: roguelikeitemsx3_1_31
+  - first:
+      213: -2643105000914615728
+    second: roguelikeitemsx3_1_32
+  - first:
+      213: 5744381364157425231
+    second: roguelikeitemsx3_1_33
+  - first:
+      213: 148306966774502114
+    second: roguelikeitemsx3_1_34
+  - first:
+      213: -784392332185658528
+    second: roguelikeitemsx3_1_35
+  - first:
+      213: -8215718526820702150
+    second: roguelikeitemsx3_1_36
+  - first:
+      213: 1647093558572575127
+    second: roguelikeitemsx3_1_37
+  - first:
+      213: -4878283777716333684
+    second: roguelikeitemsx3_1_38
+  - first:
+      213: -3524733290641536007
+    second: roguelikeitemsx3_1_39
+  - first:
+      213: 5996576016419095027
+    second: roguelikeitemsx3_1_40
+  - first:
+      213: -569697819368253858
+    second: roguelikeitemsx3_1_41
+  - first:
+      213: 1549493277546979947
+    second: roguelikeitemsx3_1_42
+  - first:
+      213: -7704785125602547385
+    second: roguelikeitemsx3_1_43
+  - first:
+      213: -7216884517311339903
+    second: roguelikeitemsx3_1_44
+  - first:
+      213: -4991325365328079824
+    second: roguelikeitemsx3_1_45
+  - first:
+      213: 5725557860603336220
+    second: roguelikeitemsx3_1_46
+  - first:
+      213: -6067846845966520681
+    second: roguelikeitemsx3_1_47
+  - first:
+      213: 4997019175611311205
+    second: roguelikeitemsx3_1_48
+  - first:
+      213: 8734068413433395403
+    second: roguelikeitemsx3_1_49
+  - first:
+      213: 6677890121135885885
+    second: roguelikeitemsx3_1_50
+  - first:
+      213: -4751196012940996181
+    second: roguelikeitemsx3_1_51
+  - first:
+      213: -8533742411779470534
+    second: roguelikeitemsx3_1_52
+  - first:
+      213: 3823779911508406222
+    second: roguelikeitemsx3_1_53
+  - first:
+      213: 3639476895190004500
+    second: roguelikeitemsx3_1_54
+  - first:
+      213: -2295729034059871670
+    second: roguelikeitemsx3_1_55
+  - first:
+      213: 1539768833618166852
+    second: roguelikeitemsx3_1_56
+  - first:
+      213: 638659554972174443
+    second: roguelikeitemsx3_1_57
+  - first:
+      213: 5678712815105381036
+    second: roguelikeitemsx3_1_58
+  - first:
+      213: 1922500522734418021
+    second: roguelikeitemsx3_1_59
+  - first:
+      213: -1390807061517098097
+    second: roguelikeitemsx3_1_60
+  - first:
+      213: -4755346129578489190
+    second: roguelikeitemsx3_1_61
+  - first:
+      213: 6593879569773275328
+    second: roguelikeitemsx3_1_62
+  - first:
+      213: -2786810816284074494
+    second: roguelikeitemsx3_1_63
+  - first:
+      213: 5504592274508855483
+    second: roguelikeitemsx3_1_64
+  - first:
+      213: 2824712759191872449
+    second: roguelikeitemsx3_1_65
+  - first:
+      213: -5016799585517228401
+    second: roguelikeitemsx3_1_66
+  - first:
+      213: -7717463168195666559
+    second: roguelikeitemsx3_1_67
+  - first:
+      213: 546799435968156413
+    second: roguelikeitemsx3_1_68
+  - first:
+      213: -7720262675368697783
+    second: roguelikeitemsx3_1_69
+  - first:
+      213: -2416782563192465281
+    second: roguelikeitemsx3_1_70
+  - first:
+      213: 4594889764492848143
+    second: roguelikeitemsx3_1_71
+  - first:
+      213: -4071422473947660404
+    second: roguelikeitemsx3_1_72
+  - first:
+      213: 4096723925086065993
+    second: roguelikeitemsx3_1_73
+  - first:
+      213: 6865004819012862365
+    second: roguelikeitemsx3_1_74
+  - first:
+      213: 5200855624903481841
+    second: roguelikeitemsx3_1_75
+  - first:
+      213: -375143941085153477
+    second: roguelikeitemsx3_1_76
+  - first:
+      213: 8239694580898589877
+    second: roguelikeitemsx3_1_77
+  - first:
+      213: -1138312343541448241
+    second: roguelikeitemsx3_1_78
+  - first:
+      213: -1466966372919556082
+    second: roguelikeitemsx3_1_79
+  - first:
+      213: 8952046135003884417
+    second: roguelikeitemsx3_1_80
+  - first:
+      213: -8706260366192296792
+    second: roguelikeitemsx3_1_81
+  - first:
+      213: 2469625945383368627
+    second: roguelikeitemsx3_1_82
+  - first:
+      213: 383404340986603361
+    second: roguelikeitemsx3_1_83
+  - first:
+      213: 4826405011354194807
+    second: roguelikeitemsx3_1_84
+  - first:
+      213: 5657052012095441296
+    second: roguelikeitemsx3_1_85
+  - first:
+      213: -7197177556948670618
+    second: roguelikeitemsx3_1_86
+  - first:
+      213: -3753426442233345499
+    second: roguelikeitemsx3_1_87
+  - first:
+      213: 1882164354905388994
+    second: roguelikeitemsx3_1_88
+  - first:
+      213: 1485880465717378133
+    second: roguelikeitemsx3_1_89
+  - first:
+      213: 1779745517029114989
+    second: roguelikeitemsx3_1_90
+  - first:
+      213: 5696572986130332704
+    second: roguelikeitemsx3_1_91
+  - first:
+      213: 6071672028585427074
+    second: roguelikeitemsx3_1_92
+  - first:
+      213: -8163026927053808452
+    second: roguelikeitemsx3_1_93
+  - first:
+      213: -7873984962452504717
+    second: roguelikeitemsx3_1_94
+  - first:
+      213: 3967704044033952062
+    second: roguelikeitemsx3_1_95
+  - first:
+      213: -5631674474623771951
+    second: roguelikeitemsx3_1_96
+  - first:
+      213: -5863030675060278789
+    second: roguelikeitemsx3_1_97
+  - first:
+      213: -5133976381914694353
+    second: roguelikeitemsx3_1_98
+  - first:
+      213: 4849313138115110266
+    second: roguelikeitemsx3_1_99
+  - first:
+      213: -8051425940388084659
+    second: roguelikeitemsx3_1_100
+  - first:
+      213: -5699904320087394352
+    second: roguelikeitemsx3_1_101
+  - first:
+      213: -7951581654182453217
+    second: roguelikeitemsx3_1_102
+  - first:
+      213: -5861978554367767691
+    second: roguelikeitemsx3_1_103
+  - first:
+      213: -7114676213691681259
+    second: roguelikeitemsx3_1_104
+  - first:
+      213: -6165866829297403932
+    second: roguelikeitemsx3_1_105
+  - first:
+      213: 3255875683133565151
+    second: roguelikeitemsx3_1_106
+  - first:
+      213: -5570404964268121363
+    second: roguelikeitemsx3_1_107
+  - first:
+      213: 962307440457312791
+    second: roguelikeitemsx3_1_108
+  - first:
+      213: -7289493848132331034
+    second: roguelikeitemsx3_1_109
+  - first:
+      213: -8911589387434579784
+    second: roguelikeitemsx3_1_110
+  - first:
+      213: -7963640815238489596
+    second: roguelikeitemsx3_1_111
+  - first:
+      213: 5092373547638598256
+    second: roguelikeitemsx3_1_112
+  - first:
+      213: 7940413389605191175
+    second: roguelikeitemsx3_1_113
+  - first:
+      213: -4639641496937111423
+    second: roguelikeitemsx3_1_114
+  - first:
+      213: -968887546130828018
+    second: roguelikeitemsx3_1_115
+  - first:
+      213: -6347166464195700652
+    second: roguelikeitemsx3_1_116
+  - first:
+      213: -5681548558608881459
+    second: roguelikeitemsx3_1_117
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 626
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df1880449251f3b0800000000000000
+      internalID: -5480508474841882667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 626
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbdff236c7acb6640800000000000000
+      internalID: 5074372040751840700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_2
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 626
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4fcee07610cfd650800000000000000
+      internalID: 6259933209684791116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_3
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 626
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d83b2a6623604a0800000000000000
+      internalID: -6627554385231377095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_4
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 626
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c271a92aed47eef40800000000000000
+      internalID: 5759669473013012268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_5
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 626
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02055dda33edf5600800000000000000
+      internalID: 459330000556216352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_6
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 626
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5851f45fef734050800000000000000
+      internalID: 5783607012372863069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_7
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 575
+        width: 38
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8656b27429fd23d0800000000000000
+      internalID: -3229651422816086389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_8
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 575
+        width: 38
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb0fb074f8d4b5280800000000000000
+      internalID: -9053557348130623301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_9
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 575
+        width: 38
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cea01bab2d9e0f40800000000000000
+      internalID: 5696663389549407936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_10
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 575
+        width: 38
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1979b86b6f9f89c60800000000000000
+      internalID: 7825279190576109457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_11
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 575
+        width: 38
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c93184d98ab2a0230800000000000000
+      internalID: 3605742454856749980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_12
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 575
+        width: 38
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255501bf33d5a0a20800000000000000
+      internalID: 3029336177196946770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_13
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 578
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a09f0379cbda61e0800000000000000
+      internalID: -2203707409379127131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_14
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 578
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d424375aed747b800800000000000000
+      internalID: 628049694625579597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_15
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 578
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec475673add07c40800000000000000
+      internalID: 5508146038408957157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_16
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 578
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bfc55e1f224a3210800000000000000
+      internalID: 1313435011471757232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_17
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 578
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3843895484c25270800000000000000
+      internalID: 8237862741130561598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_18
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 578
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3018102ebd8c0f30800000000000000
+      internalID: 4543161971831738429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_19
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 578
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884e5660d7878e790800000000000000
+      internalID: -7500612701011975032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_20
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 530
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce5bc4f42bcab520800000000000000
+      internalID: 2718708684657745602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_21
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 530
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9154ec82b9d21f770800000000000000
+      internalID: 8642739304328480025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_22
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 530
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34be475571a6fca50800000000000000
+      internalID: 6543565432043137859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_23
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 530
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf90d9aa124bcf50800000000000000
+      internalID: 6902683536161021914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_24
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 530
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbfe4d94165292570800000000000000
+      internalID: 8442320076263452607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_25
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 530
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5556140c883ae5c20800000000000000
+      internalID: 3197172593216021845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_26
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 530
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81479b5697982d10800000000000000
+      internalID: 2101095898205864333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_27
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 530
+        width: 289
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc818346ad3324c90800000000000000
+      internalID: -7187125042252605236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_28
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 482
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47aa2d62415a8440800000000000000
+      internalID: 4938849287106373455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_29
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 482
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a23d5a392600ef1a0800000000000000
+      internalID: -6773976366134734038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_30
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 482
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3fde6e58f0e2ce0800000000000000
+      internalID: -1428186964050447438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_31
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 482
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941d9d239343d7b20800000000000000
+      internalID: 3133718335990649161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_32
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 482
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0520d64610ec15bd0800000000000000
+      internalID: -2643105000914615728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_33
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 482
+        width: 47
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f462af86a6428bf40800000000000000
+      internalID: 5744381364157425231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_34
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 482
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e25f488664ee0200800000000000000
+      internalID: 148306966774502114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_35
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 383
+        width: 50
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b988b64574d15f0800000000000000
+      internalID: -784392332185658528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_36
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 488
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38a1425787ebfd80800000000000000
+      internalID: -8215718526820702150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_37
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 482
+        width: 95
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7996d866dd6abd610800000000000000
+      internalID: 1647093558572575127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_38
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 491
+        width: 50
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c83daab10cadc4cb0800000000000000
+      internalID: -4878283777716333684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_39
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 488
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fb415b3fb1a51fc0800000000000000
+      internalID: -3524733290641536007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_40
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 440
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1894f9d1e183350800000000000000
+      internalID: 5996576016419095027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_41
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 440
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e569d370ad60818f0800000000000000
+      internalID: -569697819368253858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_42
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 440
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b622b062de7e08510800000000000000
+      internalID: 1549493277546979947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_43
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 440
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7492fbdffba131590800000000000000
+      internalID: -7704785125602547385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_44
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 440
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18224a8a4c978db90800000000000000
+      internalID: -7216884517311339903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_45
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 440
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 034193186004bbab0800000000000000
+      internalID: -4991325365328079824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_46
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 440
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c161536f984457f40800000000000000
+      internalID: 5725557860603336220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_47
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 383
+        width: 41
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ee0b2417daacba0800000000000000
+      internalID: -6067846845966520681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_48
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 383
+        width: 41
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564a022077af85540800000000000000
+      internalID: 4997019175611311205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_49
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 287
+        width: 98
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc838aa62f4a53970800000000000000
+      internalID: 8734068413433395403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_50
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 335
+        width: 49
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e05672fa1acac50800000000000000
+      internalID: 6677890121135885885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 386
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba1566e266c501eb0800000000000000
+      internalID: -4751196012940996181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_52
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 386
+        width: 47
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b033d7d7e029980800000000000000
+      internalID: -8533742411779470534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_53
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 386
+        width: 47
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecfabbcf19bc01530800000000000000
+      internalID: 3823779911508406222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_54
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 386
+        width: 47
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413ba0214f4028230800000000000000
+      internalID: 3639476895190004500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_55
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 386
+        width: 47
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a8f485b9ee320e0800000000000000
+      internalID: -2295729034059871670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_56
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 386
+        width: 47
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 444470c989b5e5510800000000000000
+      internalID: 1539768833618166852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_57
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 386
+        width: 47
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6886824b79fcd800800000000000000
+      internalID: 638659554972174443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 338
+        width: 190
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca290ddd737dece40800000000000000
+      internalID: 5678712815105381036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_59
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 335
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56876122a081eaa10800000000000000
+      internalID: 1922500522734418021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_60
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 335
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f832b2ba85cd2bce0800000000000000
+      internalID: -1390807061517098097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_61
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 341
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a027ad3ed910eb0800000000000000
+      internalID: -4755346129578489190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_62
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 341
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c8aa08688a228b50800000000000000
+      internalID: 6593879569773275328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_63
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 335
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20edb27e3524359d0800000000000000
+      internalID: -2786810816284074494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_64
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 341
+        width: 50
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb8b573528d346c40800000000000000
+      internalID: 5504592274508855483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 239
+        width: 97
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c3252cd945633720800000000000000
+      internalID: 2824712759191872449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_66
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 239
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8e2beb6b5fb06ab0800000000000000
+      internalID: -5016799585517228401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_67
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 239
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d598c232016e490800000000000000
+      internalID: -7717463168195666559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_68
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 239
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df21440a03f969700800000000000000
+      internalID: 546799435968156413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_69
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 239
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94021fd100e1cd490800000000000000
+      internalID: -7720262675368697783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_70
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 287
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f781e8d301dd57ed0800000000000000
+      internalID: -2416782563192465281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_71
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 239
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0caca265e354cf30800000000000000
+      internalID: 4594889764492848143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_72
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 287
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8fbecdc4d66f77c0800000000000000
+      internalID: -4071422473947660404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_73
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 239
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945599954bc7ad830800000000000000
+      internalID: 4096723925086065993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_74
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 287
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d914b92b285654f50800000000000000
+      internalID: 6865004819012862365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_75
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 239
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9d672b2a62d2840800000000000000
+      internalID: 5200855624903481841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_76
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 239
+        width: 97
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37bafbb2983bcaf0800000000000000
+      internalID: -375143941085153477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_77
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 95
+        width: 98
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bceb28c096495270800000000000000
+      internalID: 8239694580898589877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_78
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 239
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc105cf54f6e330f0800000000000000
+      internalID: -1138312343541448241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_79
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 191
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08cfac2bd944abe0800000000000000
+      internalID: -1466966372919556082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_80
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 191
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18ba0d1a78e0c3c70800000000000000
+      internalID: 8952046135003884417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_81
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 191
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8acbb0f13562d2780800000000000000
+      internalID: -8706260366192296792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_82
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 191
+        width: 98
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7f9a276bfd54220800000000000000
+      internalID: 2469625945383368627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_83
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 191
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16769dd7730225500800000000000000
+      internalID: 383404340986603361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_84
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 194
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7739ee359c5daf240800000000000000
+      internalID: 4826405011354194807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_85
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 191
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0998bd825d2e18e40800000000000000
+      internalID: 5657052012095441296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_86
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 191
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66729ace42d7e1c90800000000000000
+      internalID: -7197177556948670618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_87
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 191
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a8f1c898629ebc0800000000000000
+      internalID: -3753426442233345499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_88
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 191
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7b907328ace1a10800000000000000
+      internalID: 1882164354905388994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_89
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 146
+        width: 142
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55cb6c93968ee9410800000000000000
+      internalID: 1485880465717378133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_90
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 146
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d644d154e1de2b810800000000000000
+      internalID: 1779745517029114989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_91
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 146
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c726bf2fa4e0f40800000000000000
+      internalID: 5696572986130332704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_92
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 149
+        width: 44
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28082887a89e24450800000000000000
+      internalID: 6071672028585427074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_93
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 146
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc5209624a17be80800000000000000
+      internalID: -8163026927053808452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_94
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 146
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f3042156cf9b290800000000000000
+      internalID: -7873984962452504717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_95
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 143
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3946866ecd101730800000000000000
+      internalID: 3967704044033952062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_96
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 146
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da5a6937e548d1b0800000000000000
+      internalID: -5631674474623771951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_97
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 143
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf930d92aa452aea0800000000000000
+      internalID: -5863030675060278789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 98
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2dbabe7ea370c8b0800000000000000
+      internalID: -5133976381914694353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_99
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 95
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a756cf93b983c4340800000000000000
+      internalID: 4849313138115110266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_100
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 95
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d448dc7f3c6934090800000000000000
+      internalID: -8051425940388084659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_101
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 98
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d7f973683fd5e0b0800000000000000
+      internalID: -5699904320087394352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_102
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 98
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1021f36d9e46a190800000000000000
+      internalID: -7951581654182453217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_103
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 0
+        width: 289
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b83f9109116aea0800000000000000
+      internalID: -5861978554367767691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5167cf6cda7934d90800000000000000
+      internalID: -7114676213691681259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_105
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 47
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e73d5379c07e6aa0800000000000000
+      internalID: -6165866829297403932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_106
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 47
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd82206fea13f2d20800000000000000
+      internalID: 3255875683133565151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_107
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 50
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de2e9b1c232f1b2b0800000000000000
+      internalID: -5570404964268121363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_108
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 50
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a6c21c48dca5d00800000000000000
+      internalID: 962307440457312791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_109
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 50
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e95dad67f386da90800000000000000
+      internalID: -7289493848132331034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_110
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 50
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b822d1faaca35480800000000000000
+      internalID: -8911589387434579784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_111
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a58e82fd67b7190800000000000000
+      internalID: -7963640815238489596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_112
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 2
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a2892d2cebba640800000000000000
+      internalID: 5092373547638598256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_113
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 2
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e3c2168e3023e60800000000000000
+      internalID: 7940413389605191175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_114
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 8
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180e6e1f3aeac9fb0800000000000000
+      internalID: -4639641496937111423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_115
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 2
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e05729109e1dd82f0800000000000000
+      internalID: -968887546130828018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_116
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 2
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 458d753cab55ae7a0800000000000000
+      internalID: -6347166464195700652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roguelikeitemsx3_1_117
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 5
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc82cf520b51721b0800000000000000
+      internalID: -5681548558608881459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      roguelikeitemsx3_1_0: -5480508474841882667
+      roguelikeitemsx3_1_1: 5074372040751840700
+      roguelikeitemsx3_1_10: 7825279190576109457
+      roguelikeitemsx3_1_100: -8051425940388084659
+      roguelikeitemsx3_1_101: -5699904320087394352
+      roguelikeitemsx3_1_102: -7951581654182453217
+      roguelikeitemsx3_1_103: -5861978554367767691
+      roguelikeitemsx3_1_104: -7114676213691681259
+      roguelikeitemsx3_1_105: -6165866829297403932
+      roguelikeitemsx3_1_106: 3255875683133565151
+      roguelikeitemsx3_1_107: -5570404964268121363
+      roguelikeitemsx3_1_108: 962307440457312791
+      roguelikeitemsx3_1_109: -7289493848132331034
+      roguelikeitemsx3_1_11: 3605742454856749980
+      roguelikeitemsx3_1_110: -8911589387434579784
+      roguelikeitemsx3_1_111: -7963640815238489596
+      roguelikeitemsx3_1_112: 5092373547638598256
+      roguelikeitemsx3_1_113: 7940413389605191175
+      roguelikeitemsx3_1_114: -4639641496937111423
+      roguelikeitemsx3_1_115: -968887546130828018
+      roguelikeitemsx3_1_116: -6347166464195700652
+      roguelikeitemsx3_1_117: -5681548558608881459
+      roguelikeitemsx3_1_12: 3029336177196946770
+      roguelikeitemsx3_1_13: -2203707409379127131
+      roguelikeitemsx3_1_14: 628049694625579597
+      roguelikeitemsx3_1_15: 5508146038408957157
+      roguelikeitemsx3_1_16: 1313435011471757232
+      roguelikeitemsx3_1_17: 8237862741130561598
+      roguelikeitemsx3_1_18: 4543161971831738429
+      roguelikeitemsx3_1_19: -7500612701011975032
+      roguelikeitemsx3_1_2: 6259933209684791116
+      roguelikeitemsx3_1_20: 2718708684657745602
+      roguelikeitemsx3_1_21: 8642739304328480025
+      roguelikeitemsx3_1_22: 6543565432043137859
+      roguelikeitemsx3_1_23: 6902683536161021914
+      roguelikeitemsx3_1_24: 8442320076263452607
+      roguelikeitemsx3_1_25: 3197172593216021845
+      roguelikeitemsx3_1_26: 2101095898205864333
+      roguelikeitemsx3_1_27: -7187125042252605236
+      roguelikeitemsx3_1_28: 4938849287106373455
+      roguelikeitemsx3_1_29: -6773976366134734038
+      roguelikeitemsx3_1_3: -6627554385231377095
+      roguelikeitemsx3_1_30: -1428186964050447438
+      roguelikeitemsx3_1_31: 3133718335990649161
+      roguelikeitemsx3_1_32: -2643105000914615728
+      roguelikeitemsx3_1_33: 5744381364157425231
+      roguelikeitemsx3_1_34: 148306966774502114
+      roguelikeitemsx3_1_35: -784392332185658528
+      roguelikeitemsx3_1_36: -8215718526820702150
+      roguelikeitemsx3_1_37: 1647093558572575127
+      roguelikeitemsx3_1_38: -4878283777716333684
+      roguelikeitemsx3_1_39: -3524733290641536007
+      roguelikeitemsx3_1_4: 5759669473013012268
+      roguelikeitemsx3_1_40: 5996576016419095027
+      roguelikeitemsx3_1_41: -569697819368253858
+      roguelikeitemsx3_1_42: 1549493277546979947
+      roguelikeitemsx3_1_43: -7704785125602547385
+      roguelikeitemsx3_1_44: -7216884517311339903
+      roguelikeitemsx3_1_45: -4991325365328079824
+      roguelikeitemsx3_1_46: 5725557860603336220
+      roguelikeitemsx3_1_47: -6067846845966520681
+      roguelikeitemsx3_1_48: 4997019175611311205
+      roguelikeitemsx3_1_49: 8734068413433395403
+      roguelikeitemsx3_1_5: 459330000556216352
+      roguelikeitemsx3_1_50: 6677890121135885885
+      roguelikeitemsx3_1_51: -4751196012940996181
+      roguelikeitemsx3_1_52: -8533742411779470534
+      roguelikeitemsx3_1_53: 3823779911508406222
+      roguelikeitemsx3_1_54: 3639476895190004500
+      roguelikeitemsx3_1_55: -2295729034059871670
+      roguelikeitemsx3_1_56: 1539768833618166852
+      roguelikeitemsx3_1_57: 638659554972174443
+      roguelikeitemsx3_1_58: 5678712815105381036
+      roguelikeitemsx3_1_59: 1922500522734418021
+      roguelikeitemsx3_1_6: 5783607012372863069
+      roguelikeitemsx3_1_60: -1390807061517098097
+      roguelikeitemsx3_1_61: -4755346129578489190
+      roguelikeitemsx3_1_62: 6593879569773275328
+      roguelikeitemsx3_1_63: -2786810816284074494
+      roguelikeitemsx3_1_64: 5504592274508855483
+      roguelikeitemsx3_1_65: 2824712759191872449
+      roguelikeitemsx3_1_66: -5016799585517228401
+      roguelikeitemsx3_1_67: -7717463168195666559
+      roguelikeitemsx3_1_68: 546799435968156413
+      roguelikeitemsx3_1_69: -7720262675368697783
+      roguelikeitemsx3_1_7: -3229651422816086389
+      roguelikeitemsx3_1_70: -2416782563192465281
+      roguelikeitemsx3_1_71: 4594889764492848143
+      roguelikeitemsx3_1_72: -4071422473947660404
+      roguelikeitemsx3_1_73: 4096723925086065993
+      roguelikeitemsx3_1_74: 6865004819012862365
+      roguelikeitemsx3_1_75: 5200855624903481841
+      roguelikeitemsx3_1_76: -375143941085153477
+      roguelikeitemsx3_1_77: 8239694580898589877
+      roguelikeitemsx3_1_78: -1138312343541448241
+      roguelikeitemsx3_1_79: -1466966372919556082
+      roguelikeitemsx3_1_8: -9053557348130623301
+      roguelikeitemsx3_1_80: 8952046135003884417
+      roguelikeitemsx3_1_81: -8706260366192296792
+      roguelikeitemsx3_1_82: 2469625945383368627
+      roguelikeitemsx3_1_83: 383404340986603361
+      roguelikeitemsx3_1_84: 4826405011354194807
+      roguelikeitemsx3_1_85: 5657052012095441296
+      roguelikeitemsx3_1_86: -7197177556948670618
+      roguelikeitemsx3_1_87: -3753426442233345499
+      roguelikeitemsx3_1_88: 1882164354905388994
+      roguelikeitemsx3_1_89: 1485880465717378133
+      roguelikeitemsx3_1_9: 5696663389549407936
+      roguelikeitemsx3_1_90: 1779745517029114989
+      roguelikeitemsx3_1_91: 5696572986130332704
+      roguelikeitemsx3_1_92: 6071672028585427074
+      roguelikeitemsx3_1_93: -8163026927053808452
+      roguelikeitemsx3_1_94: -7873984962452504717
+      roguelikeitemsx3_1_95: 3967704044033952062
+      roguelikeitemsx3_1_96: -5631674474623771951
+      roguelikeitemsx3_1_97: -5863030675060278789
+      roguelikeitemsx3_1_98: -5133976381914694353
+      roguelikeitemsx3_1_99: 4849313138115110266
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

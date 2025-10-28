@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67237b81af1b3ed46b4801d8b61dcd03, type: 3}
+  m_Name: Weapon_Wand
+  m_EditorClassIdentifier: Assembly-CSharp::Weapon
+  ID: ItemWand
+  Name: Wand
+  Icon: {fileID: 21300000, guid: 3e647f6e233b720428ad75fbf1041bd0, type: 3}
+  Description: 
+  ItemType: 0
+  IsConsumable: 0
+  IsStackable: 0
+  MaxStack: 1
+  Quantity: 0
+  WeaponType: 0
+  Damage: 3.5
+  ProjectilePrefab: {fileID: 887749069288310994, guid: 7e55fe59c8a85f744a085c36ac351b1e, type: 3}
+  RequiredMana: 5
+  Range: 7
+  attackBonus: 0
+  healthBonus: 0
+  manaBonus: 0

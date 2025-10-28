@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1475c31b268557344ae5bb650c9f7ab9, type: 3}
+  m_Name: Dialogue_Merchant
+  m_EditorClassIdentifier: Assembly-CSharp::NpcDialogue
+  Name: Trader
+  Icon: {fileID: 21300000, guid: 5313a8235fa0ae848b38d51cc076e033, type: 3}
+  HasInteraction: 1
+  InteractionType: 0
+  Greeting: Selam Dostum.
+  Dialogue:
+  - "\xD6d\xFCl kazanabilece\u011Fin bir i\u015F mi ar\u0131yorsun?"
+  - "Tam olarak senin i\xE7in bir g\xF6revim var."

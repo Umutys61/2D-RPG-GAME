@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67237b81af1b3ed46b4801d8b61dcd03, type: 3}
+  m_Name: Weapon_Book
+  m_EditorClassIdentifier: Assembly-CSharp::Weapon
+  ID: ItemBook
+  Name: Magic Book
+  Icon: {fileID: 21300000, guid: 6019e96afb2057f45930762b66648a64, type: 3}
+  Description: A Magic Book.
+  ItemType: 0
+  IsConsumable: 0
+  IsStackable: 0
+  MaxStack: 1
+  Quantity: 0
+  WeaponType: 0
+  Damage: 3
+  ProjectilePrefab: {fileID: 883030230863676935, guid: 601cd486a848caa48905143cc1c5d300, type: 3}
+  RequiredMana: 3
+  Range: 7
+  attackBonus: 0
+  healthBonus: 0
+  manaBonus: 0
