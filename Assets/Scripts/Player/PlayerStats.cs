@@ -81,9 +81,6 @@ public class PlayerStats : ScriptableObject
     public int fishingExp = 0;
     public int fishingNextExp = 10;
 
-    // -------------------------
-    // BONUS HESAPLAMA METHODLARI
-    // -------------------------
     public float GetMeleeBonusDamage() => meleeLevel * 0.5f;
     public float GetMagicBonusDamage() => magicLevel * 0.3f;
     public float GetBowBonusDamage() => bowLevel * 0.2f;
@@ -91,7 +88,7 @@ public class PlayerStats : ScriptableObject
     public float GetDefenseReduction()
     {
         float reduction = defenseLevel * 0.005f;
-        return Mathf.Clamp(reduction, 0f, 0.7f); // max %70 reduction
+        return Mathf.Clamp(reduction, 0f, 0.7f);
     }
 
     public float GetGatherTimeMultiplier(ResourceType type)
@@ -105,9 +102,6 @@ public class PlayerStats : ScriptableObject
         }
     }
 
-    // -------------------------
-    // XP EKLEME
-    // -------------------------
     public void AddCombatExp(WeaponType type, int amount)
     {
         switch (type)
@@ -198,26 +192,20 @@ public class PlayerStats : ScriptableObject
         }
     }
 
-    // -------------------------
-    // STAT HESAPLAMA
-    // -------------------------
     public void RecalculateStats(PlayerEquipment equipment)
     {
-        // 🔹 Level bonusu
         float newMaxHealth   = baseMaxHealth + ((level - 1) * 15);
         float newMaxMana     = baseMaxMana;
         float newMagicResist = baseMagicResist;
         float newDefense     = 0;
         float newAttack      = BaseDamage;
 
-        // 🔹 Armor bonusları
         if (equipment != null)
         {
             newMaxHealth   += equipment.GetTotalHealthBonus();
             newMagicResist += equipment.GetTotalMagicResist();
             newDefense     += equipment.GetTotalDefense();
 
-            // 🔹 Main Weapon bonusları
             if (equipment.MainWeapon != null)
             {
                 newAttack    += equipment.MainWeapon.attackBonus;
@@ -225,7 +213,6 @@ public class PlayerStats : ScriptableObject
                 newMaxMana   += equipment.MainWeapon.manaBonus;
             }
 
-            // 🔹 Secondary Weapon bonusları
             if (equipment.SecondaryWeapon != null)
             {
                 newAttack    += equipment.SecondaryWeapon.attackBonus;
@@ -234,7 +221,6 @@ public class PlayerStats : ScriptableObject
             }
         }
 
-        // Son değerleri güncelle
         maxHealth   = newMaxHealth;
         maxMana     = newMaxMana;
         magicResist = newMagicResist;
@@ -246,9 +232,6 @@ public class PlayerStats : ScriptableObject
         Debug.Log($"📊 Stat Güncellendi → HP:{maxHealth}, Mana:{maxMana}, Atk:{TotalDamage}, Def:{defenseLevel}, MR:{magicResist}");
     }
 
-    // -------------------------
-    // RESET
-    // -------------------------
   public void resetPlayer()
 {
     level = 1;
@@ -297,14 +280,12 @@ public class PlayerStats : ScriptableObject
     fishingExp = 0;
     fishingNextExp = 10;
 
-    // ✅ Statları yeniden hesapla (level 1, base + equipment)
     PlayerEquipment eq = Object.FindFirstObjectByType<PlayerEquipment>();
     if (eq != null)
     {
         RecalculateStats(eq);
     }
 
-    // ✅ Can ve mana full çek
     health = maxHealth;
     mana   = maxMana;
 }

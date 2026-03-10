@@ -23,11 +23,10 @@ public class Weapon : InventoryItem
     public float Range;
 
     [Header("Stat Bonuses")]
-    public float attackBonus;   // Silahın verdiği ekstra saldırı
-    public float healthBonus;   // Bazı silahlar HP verebilir
-    public float manaBonus;     // Bazı silahlar mana verebilir
+    public float attackBonus;
+    public float healthBonus;
+    public float manaBonus;
 
-    // ✅ Kuşanma override
     public override void EquipItem()
     {
         var playerEquip = GameManager.Instance.Player.GetComponent<PlayerEquipment>();
@@ -40,7 +39,6 @@ public class Weapon : InventoryItem
 #if UNITY_EDITOR
     private void OnValidate()
     {
-        // 🎯 WeaponType seçildiğinde varsayılan Range ayarla
         switch (WeaponType)
         {
             case WeaponType.Melee:

@@ -40,24 +40,22 @@
             {
                 if (enemyHealth.CurrentHealth > 0f)
                 {
-                    // ✅ Canlı enemy → target seç
                     OnEnemySelectedEvent?.Invoke(enemy);
                 }
                 else
                 {
-                    // ✅ Ceset → loot panel açmadan önce mesafe kontrolü
     if (enemyLoot != null && enemyLoot.Items != null && enemyLoot.Items.Count > 0)
     {
         float dist = Vector2.Distance(GameManager.Instance.Player.transform.position, hit.collider.transform.position);
 
-        if (dist <= 3f) // 3 birim mesafe içinde olmalı
+        if (dist <= 3f)
         {
             LootManager.Instance.ShowLoot(enemyLoot);
-            Debug.Log("💰 Loot panel açildi (yakin mesafeden cesede tikladin)");
+            Debug.Log(" Loot panel açildi (yakin mesafeden cesede tikladin)");
         }
         else
         {
-            Debug.Log("❌ Çok uzaksin, loot açilamadi!");
+            Debug.Log(" Çok uzaksin, loot açilamadi!");
         }
     }
 

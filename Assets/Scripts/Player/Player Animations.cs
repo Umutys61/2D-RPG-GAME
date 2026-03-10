@@ -42,6 +42,4 @@ public class PlayerAnimations : MonoBehaviour
         animator.SetTrigger(revive);
     }
 
-
-
 }

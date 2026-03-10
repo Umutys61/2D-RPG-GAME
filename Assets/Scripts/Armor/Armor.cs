@@ -15,9 +15,8 @@ public class Armor : InventoryItem
     public ArmorType armorType;
     public int defense;
     public int magicResist;
-    public float healthBonus;  // Zırhın verdiği ekstra HP
+    public float healthBonus;
 
-    // ✅ Kuşanma override
     public override void EquipItem()
     {
         var playerEquip = GameManager.Instance.Player.GetComponent<PlayerEquipment>();

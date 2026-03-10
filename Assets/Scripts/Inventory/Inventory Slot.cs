@@ -31,7 +31,6 @@ public class InventorySlot : MonoBehaviour
         quantityContainer.gameObject.SetActive(value);
     }
 
-    // ✅ Yeni: Remove butonu için
     public void OnRemoveButtonClicked()
     {
         InventoryUI.Instance.RequestRemoveItem(Index);

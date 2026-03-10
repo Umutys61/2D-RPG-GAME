@@ -15,13 +15,11 @@ public class LootManager : Singleton<LootManager>
             return;
         }
 
-        // Eski butonları temizle
         for (int i = 0; i < container.childCount; i++)
         {
             Destroy(container.GetChild(i).gameObject);
         }
 
-        // Yeni butonları ekle
         foreach (DropItem item in enemyLoot.Items)
         {
             if (item.PickedItem) continue;
@@ -29,7 +27,6 @@ public class LootManager : Singleton<LootManager>
             lootButton.ConfigLootButton(item);
         }
 
-        // Eğer hala item varsa paneli aç
         if (container.childCount > 0)
         {
             lootPanel.SetActive(true);

@@ -52,5 +52,4 @@ public class QuestCardPlayer : QuestCard
         QuestCompletedCheck();
     }
 
-
 }

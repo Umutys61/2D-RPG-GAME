@@ -27,33 +27,28 @@ public class InventoryItem : ScriptableObject
 
     [HideInInspector] public int Quantity;
 
-    // ✅ Kopya oluştur (Inventory içinde stack yönetimi için)
     public InventoryItem CopyItem()
     {
         InventoryItem instance = Instantiate(this);
         return instance;
     }
 
-    // ✅ Override edilebilecek sanal metodlar
     public virtual bool UseItem()
     {
-        return true; // Default: consumable gibi kullanılır
+        return true;
     }
 
     public virtual void EquipItem()
     {
-        // Default: hiçbir şey yapmaz, Weapon/Armor subclass'ı override edebilir
     }
 
     public void RemoveItem()
     {
-        // Eğer özel bir şey yapılacaksa buraya eklersin    
     }
 public virtual string GetDescription()
 {
-    string desc = Description; // Inspector’dan girilen temel açıklama
+    string desc = Description;
 
-    // Armor ise
     Armor armor = this as Armor;
     if (armor != null)
     {
@@ -62,7 +57,6 @@ public virtual string GetDescription()
         if (armor.healthBonus > 0) desc += $"\nHealth: +{armor.healthBonus}";
     }
 
-    // Weapon ise
     Weapon weapon = this as Weapon;
     if (weapon != null)
     {

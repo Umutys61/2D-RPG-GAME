@@ -12,7 +12,6 @@
 {
     if (weapon == null)
     {
-        // 👊 Tokat modunda ikon gizlensin
         weaponIcon.sprite = null;
         weaponIcon.gameObject.SetActive(false);
         weaponManaTMP.gameObject.SetActive(false);

@@ -12,7 +12,6 @@ public class EnemyLoot : MonoBehaviour
     public List<DropItem> Items { get; private set; }
     public float ExpDrop => expDrop;
 
-    // ✅ sadece loot listesi hazırlar
     public void DropLoot()
     {
         Items = new List<DropItem>();

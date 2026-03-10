@@ -8,14 +8,14 @@ public class RegionSpawner : MonoBehaviour
     public class SpawnEntry
     {
         public GameObject enemyPrefab;
-        public int initialCount;   // Başlangıçta kaç tane spawn olacak
-        public int maxAlive;       // Aynı anda max kaç tane olabilir
-        public float respawnDelay; // Ölen düşmanın yeniden doğma süresi
+        public int initialCount;
+        public int maxAlive;
+        public float respawnDelay;
     }
 
     [Header("Region Settings")]
     public List<SpawnEntry> entries = new();
-    public int regionMaxAlive ; // Bölge genelinde maksimum düşman
+    public int regionMaxAlive ;
 
     [Header("Spawn Points")]
     [Tooltip("Boş birakilirsa, spawner'in child objeleri spawn noktasi olur.")]
@@ -39,18 +39,15 @@ public class RegionSpawner : MonoBehaviour
 
     private void Start()
     {
-        // Oyun başladığında spawn sistemi direkt çalışır
         StartCoroutine(SpawnLoop());
     }
 
     private IEnumerator SpawnLoop()
     {
-        // İlk spawn
         foreach (var e in entries)
             for (int i = 0; i < e.initialCount; i++)
                 SpawnOne(e);
 
-        // Sürekli kontrol
         while (true)
         {
             foreach (var e in entries)

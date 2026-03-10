@@ -1,28 +1,26 @@
-# Unity spesifik
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
-[Uu]ser[Ss]ettings/
+UserSettings/
+
 MemoryCaptures/
 Recordings/
-.vs/
-.idea/
+
 *.csproj
 *.unityproj
 *.sln
 *.user
 *.userprefs
+*.pidb
+*.booproj
+*.svd
 
-# Paketler
-/[Pp]ackages/manifest.json.meta
-/[Pp]ackages/packages-lock.json.meta
+*.apk
+*.aab
+*.unitypackage
+*.app
 
-# Crash Reports
-sysinfo.txt
-
-# OS / IDE gereksiz dosyalar
 .DS_Store
-Thumbs.db

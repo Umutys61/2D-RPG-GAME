@@ -6,7 +6,6 @@ public class DamageText : MonoBehaviour
     [Header("Config")]
     [SerializeField] private TextMeshProUGUI damageTMP;
 
-
     public void SetDamageText(float damage)
     {
         damageTMP.text = damage.ToString();
@@ -16,6 +15,5 @@ public class DamageText : MonoBehaviour
     {
         Destroy(gameObject);
     }
-
 
 }

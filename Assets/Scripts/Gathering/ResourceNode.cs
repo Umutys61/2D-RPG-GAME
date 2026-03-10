@@ -74,7 +74,6 @@ public class ResourceNode : MonoBehaviour
 
         float actualTime = gatherTime * GameManager.Instance.Player.Stats.GetGatherTimeMultiplier(resourceType);
 
-        // Bar spawn
         if (progressBarPrefab != null)
         {
             progressBarGO = Instantiate(progressBarPrefab, transform.position + Vector3.up * 1.5f, Quaternion.identity);
@@ -97,7 +96,6 @@ public class ResourceNode : MonoBehaviour
 
         if (progressBarGO != null) Destroy(progressBarGO);
 
-        // 🎁 Envantere ekle
         InventoryItem item = Inventory.Instance.GetItemFromContent(itemID);
         if (item != null)
         {
@@ -129,11 +127,9 @@ public class ResourceNode : MonoBehaviour
             GameManager.Instance.Player.Stats.AddGatherExp(resourceType, 1);
         }
 
-        // Kaynağı gizle
         if (sr != null) sr.enabled = false;
         if (col != null) col.enabled = false;
 
-        // Respawn
         yield return new WaitForSeconds(respawnTime);
 
         if (sr != null) sr.enabled = true;

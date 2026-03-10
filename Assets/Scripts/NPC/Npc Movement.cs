@@ -10,7 +10,6 @@ public class NpcMovement : MonoBehaviour
     private readonly int moveX = Animator.StringToHash("Move X");
     private readonly int moveY = Animator.StringToHash("Move Y");
 
-
     private Waypoint waypoint;
     private Animator animator;
     private Vector3 previousPos;

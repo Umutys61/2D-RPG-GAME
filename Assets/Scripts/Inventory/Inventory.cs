@@ -19,7 +19,7 @@ public class Inventory : Singleton<Inventory>
     private readonly string INVENTORY_KEY_DATA = "MY_INVENTORY";
 
     [Header("World Drop")]
-    [SerializeField] private GameObject worldItemPrefab;   // ✅ sadece tek prefab
+    [SerializeField] private GameObject worldItemPrefab;
 
     private void Start()
     {
@@ -40,11 +40,10 @@ public class Inventory : Singleton<Inventory>
     {
         if (item == null || quantity <= 0) return;
 
-        // 🔑 Coin kontrolü
         if (item.ID == "ItemGoldCoin")
         {
             CoinManager.Instance.AddCoins(quantity);
-            return; // coin envantere girmez
+            return;
         }
 
         List<int> itemIndexes = CheckItemStockIndexes(item.ID);
@@ -84,14 +83,12 @@ public void UseItem(int index)
 
     InventoryItem item = inventoryItems[index];
 
-    // ❌ consumable değilse hiç çalışmasın
     if (!item.IsConsumable)
     {
         Debug.LogWarning($"{item.Name} kullanılamaz (Consumable değil).");
         return;
     }
 
-    // ✅ consumable ise kullan
     if (item.UseItem())
     {
         DecreaseItemStack(index);
@@ -99,12 +96,8 @@ public void UseItem(int index)
     }
 }
 
-
-
-    // ---------------- REMOVE ----------------
     public void RemoveItem(int index)
     {
-        // eski RemoveItem = hepsini siler
         if (inventoryItems[index] == null) return;
         RemoveItemAmount(index, inventoryItems[index].Quantity);
     }
@@ -127,16 +120,13 @@ public void UseItem(int index)
 
         SaveInventory();
     }
-    // ----------------------------------------
 
-    // ✅ DROP ITEM
     public void DropItem(int index, int amount)
     {
         if (inventoryItems[index] == null || amount <= 0) return;
 
         InventoryItem item = inventoryItems[index];
 
-        // envanterden eksilt
         inventoryItems[index].Quantity -= amount;
         if (inventoryItems[index].Quantity <= 0)
         {
@@ -150,12 +140,10 @@ public void UseItem(int index)
 
         SaveInventory();
 
-        // sahneye bırak
         if (worldItemPrefab != null)
         {
             Vector3 playerPos = GameManager.Instance.Player.transform.position;
 
-            // sağ -> sol -> yukarı -> aşağı kontrol
             Vector3[] dirs = { Vector3.right, Vector3.left, Vector3.up, Vector3.down };
             Vector3 dropPos = playerPos;
 
@@ -189,23 +177,19 @@ public void UseItem(int index)
 
         InventoryItem item = inventoryItems[index];
 
-        // ❌ sadece Weapon veya Armor kuşanılabilir
         if (item.ItemType != ItemType.Weapon && item.ItemType != ItemType.Armor)
         {
             Debug.LogWarning($"❌ {item.Name} kuşanılamaz! Sadece silah ve zırh kuşanılabilir.");
             return;
         }
 
-        // ✅ kuşanma işlemi
         EquipmentUI.Instance.AssignItemToSlot(item);
 
-        // envanterden düş
         inventoryItems[index] = null;
         InventoryUI.Instance.DrawItem(null, index);
 
         SaveInventory();
     }
-
 
     public void UnequipItem(InventoryItem item)
     {

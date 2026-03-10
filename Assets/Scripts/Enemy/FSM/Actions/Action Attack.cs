@@ -10,7 +10,7 @@ public class ActionAttack : FSMAction
     private EnemyBrain enemyBrain;
     private float cooldownTimer;
 
-    public float AttackRange => attackRange; // dışarıya açtık ✅
+    public float AttackRange => attackRange;
 
     private void Awake()
     {
@@ -21,11 +21,9 @@ public class ActionAttack : FSMAction
     {
         if (enemyBrain.Player == null) return;
 
-        // Cooldown çalışıyor mu?
         cooldownTimer -= Time.deltaTime;
         if (cooldownTimer > 0f) return;
 
-        // Mesafe kontrolü
         float distance = Vector2.Distance(transform.position, enemyBrain.Player.position);
         if (distance <= attackRange)
         {
@@ -33,7 +31,7 @@ public class ActionAttack : FSMAction
             if (player != null)
             {
                 player.TakeDamage(damage);
-                cooldownTimer = attackCooldown; // resetle
+                cooldownTimer = attackCooldown;
             }
         }
     }

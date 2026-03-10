@@ -20,7 +20,6 @@ public class PlayerHealth : MonoBehaviour, IDamageable
             return;
         }
 
-        // ✅ Health Regen
         if (stats.health < stats.maxHealth)
         {
             stats.health += stats.healthRegenRate * Time.deltaTime;
@@ -33,15 +32,13 @@ public class PlayerHealth : MonoBehaviour, IDamageable
     {
         if (stats.health <= 0f) return;
 
-        // 🛡️ Defense level hasarı azaltır
         float reduced = amount * (1f - stats.GetDefenseReduction());
 
-        if (reduced < 1f) reduced = 1f; // minimum damage sınırı
+        if (reduced < 1f) reduced = 1f;
 
         stats.health -= reduced;
         DamageManager.Instance.ShowDamageText(reduced, transform);
 
-        // 🛡️ Defense EXP kazan
         stats.AddDefenseExp(1);
 
         if (stats.health <= 0f)

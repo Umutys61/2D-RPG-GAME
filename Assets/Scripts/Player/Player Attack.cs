@@ -6,8 +6,8 @@ public class PlayerAttack : MonoBehaviour
 {
     [Header("Config")]
     [SerializeField] private PlayerStats stats;
-    [SerializeField] private Weapon initialWeapon;    // Başlangıç silahı (isteğe bağlı)
-    [SerializeField] private Weapon unarmedWeapon;    // 👊 Tokat fallback
+    [SerializeField] private Weapon initialWeapon;
+    [SerializeField] private Weapon unarmedWeapon;
     [SerializeField] private Transform[] attackPositions;
 
     [Header("Melee Config")]
@@ -35,7 +35,6 @@ public class PlayerAttack : MonoBehaviour
 
    private void Start()
 {
-    // Eğer hiç silah atanmadıysa → tokat setle
     if (CurrentWeapon == null)
     {
         EquipWeapon(unarmedWeapon);
@@ -43,7 +42,6 @@ public class PlayerAttack : MonoBehaviour
 
     actions.Attack.ClickAttack.performed += ctx => Attack();
 }
-
 
     private void Update()
     {
@@ -54,7 +52,6 @@ public class PlayerAttack : MonoBehaviour
     {
         if (enemyTarget == null || CurrentWeapon == null) return;
 
-        // 🎯 Silah menzili kontrolü
         float dist = Vector3.Distance(enemyTarget.transform.position, transform.position);
         if (dist > CurrentWeapon.Range)
         {
@@ -62,7 +59,6 @@ public class PlayerAttack : MonoBehaviour
             return;
         }
 
-        // Mana kontrolü (her silah için)
         if (CurrentWeapon.RequiredMana > 0 && playerMana.CurrentMana < CurrentWeapon.RequiredMana)
         {
             Debug.Log("❌ Mana yetersiz! Saldırı iptal edildi.");
@@ -95,7 +91,6 @@ public class PlayerAttack : MonoBehaviour
                 break;
         }
 
-        // ✅ Mana tüketimi her saldırının sonunda yapılır
         if (CurrentWeapon.RequiredMana > 0)
             playerMana.UseMana(CurrentWeapon.RequiredMana);
 
@@ -107,11 +102,9 @@ private void MagicAttack()
 {
     if (enemyTarget == null) return;
 
-    // hedef yönünü hesapla
     Vector2 dir = (enemyTarget.transform.position - currentAttackPosition.position).normalized;
     float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
 
-    // mermiyi hedefe bakacak şekilde döndür
     Quaternion rotation = Quaternion.Euler(0, 0, angle - 90f);
 
     Projectile projectile = Instantiate(CurrentWeapon.ProjectilePrefab, currentAttackPosition.position, rotation);
@@ -125,11 +118,9 @@ private void BowAttack()
 {
     if (enemyTarget == null) return;
 
-    // hedef yönünü hesapla
     Vector2 dir = (enemyTarget.transform.position - currentAttackPosition.position).normalized;
     float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
 
-    // oku hedefe bakacak şekilde döndür
     Quaternion rotation = Quaternion.Euler(0, 0, angle - 90f);
 
     Projectile projectile = Instantiate(CurrentWeapon.ProjectilePrefab, currentAttackPosition.position, rotation);
@@ -138,7 +129,6 @@ private void BowAttack()
 
     projectile.Init(CurrentWeapon.Range, enemyTarget.transform);
 }
-
 
     private void MeleeAttack()
     {
@@ -180,7 +170,6 @@ private void BowAttack()
     {
         float damage = stats.BaseDamage + CurrentWeapon.Damage;
 
-        // 🎯 Level bonusları
         if (CurrentWeapon.WeaponType == WeaponType.Melee)
             damage += stats.GetMeleeBonusDamage();
         else if (CurrentWeapon.WeaponType == WeaponType.Magic)
@@ -188,7 +177,6 @@ private void BowAttack()
         else if (CurrentWeapon.WeaponType == WeaponType.Bow)
             damage += stats.GetBowBonusDamage();
 
-        // Kritik
         if (Random.Range(0f, 100f) <= stats.CriticalChance)
             damage += damage * (stats.CriticalDamage / 100f);
 

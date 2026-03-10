@@ -108,7 +108,6 @@ public class UIManager : MonoBehaviour
 
     private void UpdateStatsPanel()
     {
-        // General
         statLevelTMP.text = stats.level.ToString();
         statDamageTMP.text = stats.TotalDamage.ToString();
         statCChanceTMP.text = stats.CriticalChance.ToString();
@@ -117,18 +116,15 @@ public class UIManager : MonoBehaviour
         statCurrentExpTMP.text = stats.currentExp.ToString();
         statRequiredExpTMP.text = stats.nextLevelExp.ToString();
 
-        // Attributes
         attributePointsTMP.text = $"Points:{stats.AttributePoints}";
         strengthTMP.text = stats.Strength.ToString();
         dexterityTMP.text = stats.Dexterity.ToString();
         intelligenceTMP.text = stats.Intelligence.ToString();
 
-        // Gathering
         woodCuttingTMP.text = $"Lv {stats.woodcuttingLevel} ({stats.woodcuttingExp}/{stats.woodcuttingNextExp})";
         miningTMP.text = $"Lv {stats.miningLevel} ({stats.miningExp}/{stats.miningNextExp})";
         fishingTMP.text = $"Lv {stats.fishingLevel} ({stats.fishingExp}/{stats.fishingNextExp})";
 
-        // Combat Skills 
         float meleePercent = (float)stats.meleeExp / stats.meleeNextExp * 100f;
         float magicPercent = (float)stats.magicExp / stats.magicNextExp * 100f;
         float bowPercent = (float)stats.bowExp / stats.bowNextExp * 100f;
@@ -139,7 +135,6 @@ public class UIManager : MonoBehaviour
         bowTMP.text = $"Lv {stats.bowLevel} ({bowPercent:0}%)";
         defenseTMP.text = $"Lv {stats.defenseLevel} ({defensePercent:0}%)";
 
-        // Resist & Regen (özel format)
         magicResistTMP.text = $"{stats.magicResist}%";
         healthRegenTMP.text = $"+{stats.healthRegenRate}/s";
         manaRegenTMP.text = $"+{stats.manaRegenRate}/s";

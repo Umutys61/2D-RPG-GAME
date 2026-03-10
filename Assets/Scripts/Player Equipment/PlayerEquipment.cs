@@ -2,19 +2,14 @@ using UnityEngine;
 
 public class PlayerEquipment : MonoBehaviour
 {
-    // --- Armor ---
     public Armor Helmet;
     public Armor Chest;
     public Armor Legs;
     public Armor Boots;
 
-    // --- Weapons ---
-    public Weapon MainWeapon;        // Sağ el silahı
-    public Weapon SecondaryWeapon;   // Sol el silahı (dagger, orb, wand vb.)
+    public Weapon MainWeapon;
+    public Weapon SecondaryWeapon;
 
-    // -----------------------------
-    // ARMOR KUŞANMA & ÇIKARMA
-    // -----------------------------
     public void EquipArmor(Armor armor)
     {
         switch (armor.armorType)
@@ -27,7 +22,6 @@ public class PlayerEquipment : MonoBehaviour
 
         Debug.Log($"🛡️ {armor.Name} kuşanıldı! (DEF +{armor.defense}, HP +{armor.healthBonus}, MR +{armor.magicResist})");
 
-        // ✅ Stat güncelle
         GameManager.Instance.Player.Stats.RecalculateStats(this);
     }
 
@@ -43,19 +37,14 @@ public class PlayerEquipment : MonoBehaviour
 
         Debug.Log($"🛡️ {type} çıkarıldı!");
 
-        // ✅ Stat güncelle
         GameManager.Instance.Player.Stats.RecalculateStats(this);
     }
 
-    // -----------------------------
-    // WEAPON KUŞANMA & ÇIKARMA
-    // -----------------------------
     public void EquipMainWeapon(Weapon weapon)
     {
         MainWeapon = weapon;
         Debug.Log($"⚔️ {weapon.name} Main Weapon olarak kuşanıldı!");
 
-        // ✅ Stat güncelle
         GameManager.Instance.Player.Stats.RecalculateStats(this);
     }
 
@@ -64,7 +53,6 @@ public class PlayerEquipment : MonoBehaviour
         Debug.Log($"⚔️ {MainWeapon?.name ?? "None"} çıkarıldı!");
         MainWeapon = null;
 
-        // ✅ Stat güncelle
         GameManager.Instance.Player.Stats.RecalculateStats(this);
     }
 
@@ -73,7 +61,6 @@ public class PlayerEquipment : MonoBehaviour
         SecondaryWeapon = weapon;
         Debug.Log($"🗡️ {weapon.name} Secondary Weapon olarak kuşanıldı!");
 
-        // ✅ Stat güncelle
         GameManager.Instance.Player.Stats.RecalculateStats(this);
     }
 
@@ -82,13 +69,9 @@ public class PlayerEquipment : MonoBehaviour
         Debug.Log($"🗡️ {SecondaryWeapon?.name ?? "None"} çıkarıldı!");
         SecondaryWeapon = null;
 
-        // ✅ Stat güncelle
         GameManager.Instance.Player.Stats.RecalculateStats(this);
     }
 
-    // -----------------------------
-    // TOPLAM STATLAR
-    // -----------------------------
     public int GetTotalDefense()
     {
         int def = 0;

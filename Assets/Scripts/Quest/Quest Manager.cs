@@ -12,8 +12,6 @@ public class QuestManager : Singleton<QuestManager>
     [SerializeField] private QuestCardPlayer questCardPlayerPrefab;
     [SerializeField] private Transform playerPanelContainer;
 
-
-
     private void Start()
     {
         LoadQuestsIntoNpcPanel();

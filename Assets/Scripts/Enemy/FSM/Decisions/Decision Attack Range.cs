@@ -3,7 +3,7 @@ using UnityEngine;
 public class DecisionAttackRange : FSMDecision
 {
     [Header("Config")]
-    [SerializeField] private ActionAttack actionAttack; // Referans alacağımız attack script
+    [SerializeField] private ActionAttack actionAttack;
 
     private EnemyBrain enemy;
 
@@ -11,7 +11,7 @@ public class DecisionAttackRange : FSMDecision
     {
         enemy = GetComponent<EnemyBrain>();
         if (actionAttack == null)
-            actionAttack = GetComponent<ActionAttack>(); // aynı objede bul
+            actionAttack = GetComponent<ActionAttack>();
     }
 
     public override bool Decide()
@@ -24,7 +24,7 @@ public class DecisionAttackRange : FSMDecision
         if (enemy.Player == null || actionAttack == null) return false;
 
         float distance = Vector2.Distance(enemy.transform.position, enemy.Player.position);
-        return distance <= actionAttack.AttackRange; // tek kaynaktan al
+        return distance <= actionAttack.AttackRange;
     }
 
     private void OnDrawGizmosSelected()

@@ -18,7 +18,7 @@ public class InventoryUI : Singleton<InventoryUI>
 
     [Header("Remove Panel")]
     [SerializeField] private GameObject removePanel;
-    [SerializeField] private TextMeshProUGUI removeTitleText;   // hangi item silinecek
+    [SerializeField] private TextMeshProUGUI removeTitleText;
     [SerializeField] private Slider removeSlider;
     [SerializeField] private TextMeshProUGUI removeQuantityText;
     [SerializeField] private Button confirmRemoveButton;
@@ -37,7 +37,6 @@ public class InventoryUI : Singleton<InventoryUI>
     public InventorySlot CurrentSlot { get; set; }
     private List<InventorySlot> slotList = new List<InventorySlot>();
 
-    // ✅ Singleton korunsun diye override
     protected override void Awake()
     {
         base.Awake();
@@ -94,7 +93,6 @@ public class InventoryUI : Singleton<InventoryUI>
         Inventory.Instance.UseItem(CurrentSlot.Index);
     }
 
-    // ---------------- REMOVE SYSTEM ----------------
     public void RequestRemoveCurrent()
     {
         if (CurrentSlot == null) return;
@@ -107,18 +105,14 @@ public class InventoryUI : Singleton<InventoryUI>
         var item = Inventory.Instance.InventoryItems[index];
         if (item == null) return;
 
-        // Başlık
         removeTitleText.text = $"{item.Name} - Silinecek miktarı seç:";
 
-        // Slider ayarları
         removeSlider.minValue = 1;
         removeSlider.maxValue = item.Quantity;
         removeSlider.value = 1;
 
-        // İlk miktar
         removeQuantityText.text = "1";
 
-        // Paneli aç
         removePanel.SetActive(true);
     }
 
@@ -143,9 +137,7 @@ public class InventoryUI : Singleton<InventoryUI>
         pendingRemoveIndex = -1;
         removePanel.SetActive(false);
     }
-    // -------------------------------------------------
 
-    // ---------------- DROP SYSTEM ----------------
     public void OpenDropPanel()
     {
         if (CurrentSlot == null) return;
@@ -183,7 +175,6 @@ public class InventoryUI : Singleton<InventoryUI>
         pendingDropIndex = -1;
         dropPanel.SetActive(false);
     }
-    // -------------------------------------------------
 
     public void EquipItem()
     {
@@ -200,9 +191,8 @@ public class InventoryUI : Singleton<InventoryUI>
 
     itemIcon.sprite = item.Icon;
     itemName.text = item.Name;
-    itemDescriptionTMP.text = item.GetDescription(); // 🔥 artık dinamik açıklama
+    itemDescriptionTMP.text = item.GetDescription();
 }
-
 
     public void OpenCloseInventory()
     {

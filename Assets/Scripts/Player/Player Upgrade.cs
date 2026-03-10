@@ -13,26 +13,21 @@ public class PlayerUpgrade : MonoBehaviour
 
     private void UpgradePlayer(int upgradeIndex)
     {
-        // Damage
         stats.BaseDamage += settings[upgradeIndex].DamageUpgrade;
         stats.TotalDamage += settings[upgradeIndex].DamageUpgrade;
 
-        // Kalıcı Health / Mana artışı
         stats.baseMaxHealth += settings[upgradeIndex].HealthUpgrade;
         stats.baseMaxMana   += settings[upgradeIndex].ManaUpgrade;
 
-        // Crit
         stats.CriticalChance += settings[upgradeIndex].CChanceUpgrade;
         stats.CriticalDamage += settings[upgradeIndex].CdamageUpgrade;
 
-        // Statları yeniden hesapla
         PlayerEquipment eq = FindFirstObjectByType<PlayerEquipment>();
         if (eq != null)
         {
             stats.RecalculateStats(eq);
         }
 
-        // Can / mana full
         stats.health = stats.maxHealth;
         stats.mana   = stats.maxMana;
     }

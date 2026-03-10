@@ -14,7 +14,6 @@ public class PlayerMana : MonoBehaviour
 
     private void Update()
     {
-        // ✅ Mana Regen
         if (stats.mana < stats.maxMana)
         {
             stats.mana += stats.manaRegenRate * Time.deltaTime;
@@ -22,7 +21,6 @@ public class PlayerMana : MonoBehaviour
                 stats.mana = stats.maxMana;
         }
 
-        // Test amaçlı (X'e basınca mana harcar)
         if (Input.GetKeyDown(KeyCode.X))
         {
             UseMana(1f);

@@ -7,7 +7,6 @@ public class EnemyBrain : MonoBehaviour
     public FSMState currentState { get; set; }
     public Transform Player { get; set; }
 
-
     private void Start()
     {
         ChangeState(initState);

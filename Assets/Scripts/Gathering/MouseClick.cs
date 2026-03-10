@@ -6,19 +6,18 @@ public class MouseClick : MonoBehaviour
     public PlayerInteraction playerInteraction;
 
     [Header("Click Settings")]
-    public float clickRange = 8f; // Node için tıklama mesafesi
-    public float lootRange = 3f;  // Loot için tıklama mesafesi
+    public float clickRange = 8f;
+    public float lootRange = 3f;
 
     [Header("Layer Settings")]
-    public LayerMask enemyLayer; // Sadece enemy layer'ını kontrol etmek için
+    public LayerMask enemyLayer;
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0)) // Sol tık
+        if (Input.GetMouseButtonDown(0))
         {
             Vector2 mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
 
-            // 1️⃣ Resource Node kontrolü
             Collider2D nodeCollider = Physics2D.OverlapCircle(mousePos, 0.1f, LayerMask.GetMask("ResourceNode"));
             if (nodeCollider != null)
             {
@@ -29,16 +28,15 @@ public class MouseClick : MonoBehaviour
                     if (dist <= clickRange)
                     {
                         playerInteraction.SetTarget(node);
-                        Debug.Log("✅ Node seçildi.");
+                        Debug.Log(" Node seçildi.");
                     }
                     else
                     {
-                        Debug.Log("❌ Çok uzak, node seçilemedi!");
+                        Debug.Log(" Çok uzak, node seçilemedi!");
                     }
                 }
             }
 
-            // 2️⃣ Enemy Loot kontrolü
             Collider2D[] enemies = Physics2D.OverlapCircleAll(mousePos, 0.1f, enemyLayer);
             foreach (var col in enemies)
             {
@@ -53,16 +51,16 @@ public class MouseClick : MonoBehaviour
                         if (enemy.TryGetComponent<EnemyLoot>(out var loot) && loot.Items != null && loot.Items.Count > 0)
                         {
                             LootManager.Instance.ShowLoot(loot);
-                            Debug.Log("✅ Loot açıldı!");
+                            Debug.Log(" Loot açıldı!");
                         }
                         else
                         {
-                            Debug.Log("❌ Loot yok!");
+                            Debug.Log(" Loot yok!");
                         }
                     }
                     else
                     {
-                        Debug.Log("❌ Çok uzaktasın, loot için yaklaş!");
+                        Debug.Log(" Çok uzaktasın, loot için yaklaş!");
                     }
                 }
             }

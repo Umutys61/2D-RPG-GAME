@@ -4,7 +4,6 @@ using Vector2 = UnityEngine.Vector2;
 public class PlayerMovement : MonoBehaviour
 {
 
-
     [Header("Config")]
     [SerializeField] private float moveSpeed;
     private PlayerAnimations playerAnimations;
@@ -16,8 +15,6 @@ public class PlayerMovement : MonoBehaviour
     private Vector2? targetPos;
 
     public bool HasManualInput => moveDirection != Vector2.zero;
-
-
 
     private void Awake()
     {
@@ -34,13 +31,12 @@ public class PlayerMovement : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        // Eğer hedef pozisyon varsa → hedefe yürü
         if (targetPos.HasValue)
         {
             Vector2 dir = (targetPos.Value - rb2D.position);
             if (dir.magnitude < 0.1f)
             {
-                Stop(); // hedefe ulaştı
+                Stop();
                 return;
             }
 
@@ -50,7 +46,6 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            // Eğer hedef yoksa → WASD inputuyla hareket et
             if (player.Stats.health <= 0f) return;
 
             rb2D.MovePosition(rb2D.position + moveDirection * (moveSpeed * Time.fixedDeltaTime));
@@ -70,7 +65,6 @@ public class PlayerMovement : MonoBehaviour
 {
     moveDirection = actions.Movement.Move.ReadValue<Vector2>().normalized;
 
-    // 🔽 Eğer oyuncu manuel input girerse → hedefi iptal et
     if (moveDirection != Vector2.zero && targetPos.HasValue)
     {
         Stop();

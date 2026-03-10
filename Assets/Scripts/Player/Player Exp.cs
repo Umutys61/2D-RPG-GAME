@@ -36,14 +36,12 @@ public class PlayerExp : MonoBehaviour
         );
         stats.nextLevelExp = newNextLevelExp;
 
-        // Statları yeniden hesapla
         PlayerEquipment eq = FindFirstObjectByType<PlayerEquipment>();
         if (eq != null)
         {
             stats.RecalculateStats(eq);
         }
 
-        // Level atlayınca can/mana doldur
         stats.health = stats.maxHealth;
         stats.mana   = stats.maxMana;
 

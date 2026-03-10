@@ -20,7 +20,6 @@ public class PlayerInteraction : MonoBehaviour
         {
             float dist = Vector2.Distance(transform.position, currentTarget.transform.position);
 
-            // ⭐ Eğer oyuncu manuel input girdiyse → toplama iptal
             if (movement.HasManualInput)
             {
                 currentTarget.CancelGather();
@@ -28,12 +27,10 @@ public class PlayerInteraction : MonoBehaviour
                 return;
             }
 
-            // Oyuncu menzile girdiyse
             if (dist <= interactRange)
             {
                 movement.Stop();
 
-                // Resource türüne göre doğru animasyonu oynat
                 if (animator != null)
                 {
                     switch (currentTarget.resourceType)
@@ -50,9 +47,7 @@ public class PlayerInteraction : MonoBehaviour
                     }
                 }
 
-                // Toplama başlat
                 currentTarget.Gather();
-                // ❌ hemen null yapmıyoruz → ResourceNode işi bitirince ClearTarget() çağıracak
             }
         }
     }

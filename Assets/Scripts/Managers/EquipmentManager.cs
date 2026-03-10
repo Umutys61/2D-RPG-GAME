@@ -4,14 +4,14 @@ using BayatGames.SaveGameFree;
 public class EquipmentManager : Singleton<EquipmentManager>
 {
     [Header("Config")]
-    [SerializeField] private EquipmentSlot[] slots; // Helmet, Chest, Legs, Boots, MainWeapon, SecondaryWeapon
+    [SerializeField] private EquipmentSlot[] slots;
 
     private readonly string EQUIPMENT_KEY = "MY_EQUIPMENT";
 
     [System.Serializable]
     public class EquipmentData
     {
-        public string[] equippedIDs; // Slot bazlı item ID’leri
+        public string[] equippedIDs;
     }
 
     private void Start()

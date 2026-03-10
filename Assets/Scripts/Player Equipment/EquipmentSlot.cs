@@ -19,11 +19,9 @@ public class EquipmentSlot : MonoBehaviour, IPointerClickHandler
 
     private InventoryItem currentItem;
 
-    // çift tık kontrolü
     private float lastClickTime;
     private const float doubleClickDelay = 0.3f;
 
-    // Slot’a item yerleştirme
     public void SetItem(InventoryItem item)
     {
         currentItem = item;
@@ -34,7 +32,6 @@ public class EquipmentSlot : MonoBehaviour, IPointerClickHandler
         var playerAttack = GameManager.Instance.Player.GetComponent<PlayerAttack>();
         if (playerEquip == null || playerAttack == null) return;
 
-        // --- Armor ise
         Armor armor = item as Armor;
         if (armor != null)
         {
@@ -42,7 +39,6 @@ public class EquipmentSlot : MonoBehaviour, IPointerClickHandler
             return;
         }
 
-        // --- Weapon ise
         Weapon weapon = item as Weapon;
         if (weapon != null)
         {
@@ -50,12 +46,11 @@ public class EquipmentSlot : MonoBehaviour, IPointerClickHandler
             {
                 playerEquip.EquipMainWeapon(weapon);
                 playerAttack.EquipWeapon(weapon);
-                WeaponManager.Instance.EquipWeapon(weapon); // ✅ UI sol alt ikonu güncelle
+                WeaponManager.Instance.EquipWeapon(weapon);
             }
             else if (slotType == EquipmentSlotType.SecondaryWeapon)
             {
                 playerEquip.EquipSecondaryWeapon(weapon);
-                // Eğer secondary saldırıyı etkiliyorsa buraya da playerAttack entegrasyonu eklenebilir
             }
             return;
         }
@@ -75,7 +70,6 @@ public class EquipmentSlot : MonoBehaviour, IPointerClickHandler
         var playerAttack = GameManager.Instance.Player.GetComponent<PlayerAttack>();
         if (playerEquip == null || playerAttack == null) return;
 
-        // PlayerEquipment boşalt
         switch (slotType)
         {
             case EquipmentSlotType.Helmet:       
@@ -96,8 +90,8 @@ public class EquipmentSlot : MonoBehaviour, IPointerClickHandler
 
             case EquipmentSlotType.MainWeapon:   
                 playerEquip.UnequipMainWeapon();
-                playerAttack.EquipWeapon(null);         // 👊 Tokata dön
-                WeaponManager.Instance.EquipWeapon(null); // ✅ UI ikonunu gizle
+                playerAttack.EquipWeapon(null);
+                WeaponManager.Instance.EquipWeapon(null);
                 break;
 
             case EquipmentSlotType.SecondaryWeapon: 
@@ -106,7 +100,6 @@ public class EquipmentSlot : MonoBehaviour, IPointerClickHandler
         }
     }
 
-    // Çift tıklama kontrolü
     public void OnPointerClick(PointerEventData eventData)
     {
         if (Time.time - lastClickTime < doubleClickDelay)

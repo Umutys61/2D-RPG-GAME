@@ -42,7 +42,6 @@ public class EnemyHealth : MonoBehaviour, IDamageable
             DisableEnemy();
             isDead = true;
 
-            // Loot sadece hazırlanacak
             if (enemyLoot != null)
                 enemyLoot.DropLoot();
 
