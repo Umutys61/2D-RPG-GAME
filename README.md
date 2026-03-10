@@ -91,6 +91,4 @@ ProjectSettings/ → Unity project configuration
 
 **Umut Yeşilyurt**
 
-Software Engineering Student  
-
 GitHub: https://github.com/Umutys61
