@@ -8,6 +8,9 @@ UserSettings/
 
 MemoryCaptures/
 Recordings/
+.vs/
+.vscode/
+IndexingPerformanceReport/
 
 *.csproj
 *.unityproj
